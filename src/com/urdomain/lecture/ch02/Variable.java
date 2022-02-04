@@ -12,8 +12,8 @@ public class Variable {
 		int roomNumber = 1;
 		int roomnumber = 2;
 		
-		System.out.println(roomNumber);
-		System.out.println(roomnumber);
+		System.out.println("roomNumber : " + roonNumber);
+		System.out.println("roomnumber : " + roomnumber);
 		
 		
 		boolean defaultNy = 1;
