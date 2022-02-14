@@ -1,0 +1,98 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.test.Test",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "com.test.test",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.CharExample",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch GarbageValueExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.GarbageValueExample",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.Hello",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperationPromodationExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.OperationPromodationExample",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch PromotionExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.PromotionExample",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.Test",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Variable",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.Variable",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch VariableExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.VariableExample",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch VariableScopeExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.VariableScopeExample",
+            "projectName": "study_java"
+        },
+        {
+            "type": "java",
+            "name": "Launch intExample",
+            "request": "launch",
+            "mainClass": "com.urdomain.lecture.ch02.intExample",
+            "projectName": "study_java"
+        }
+    ]
+}
