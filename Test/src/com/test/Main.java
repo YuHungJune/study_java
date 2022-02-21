@@ -4,29 +4,30 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int num1 = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0, num6 = 0;
         int I = 0;
+        int num1 = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0, num6 = 0;
+
         int cn = 0;
         for(int i = 1; i <= 6; i++) {
 
             switch(i) {
                 case 1:
-                    num1 = (int)(Math.random()*(45 + 1));
+                    num1 = (int)(Math.random()*45 + 1);
                     break;
                 case 2:
-                    num2 = (int)(Math.random()*(45 + 1));
+                    num2 = (int)(Math.random()*45 + 1);
                     break;
                 case 3:
-                    num3 = (int)(Math.random()*(45 + 1));
+                    num3 = (int)(Math.random()*45 + 1);
                     break;
                 case 4:
-                    num4 = (int)(Math.random()*(45 + 1));
+                    num4 = (int)(Math.random()*45 + 1);
                     break;
                 case 5:
-                    num5 = (int)(Math.random()*(45 + 1));
+                    num5 = (int)(Math.random()*45 + 1);
                     break;
                 case 6:
-                    num6 = (int)(Math.random()*(45 + 1));
+                    num6 = (int)(Math.random()*45 + 1);
                     break;
                 default:
                     break;
