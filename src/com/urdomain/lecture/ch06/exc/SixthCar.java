@@ -8,7 +8,7 @@ public class SixthCar {
 		this.model = model;
 	}
 	
-	public void setSpped(int speed) {
+	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
 	
