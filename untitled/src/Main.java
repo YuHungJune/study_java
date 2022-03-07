@@ -1,25 +1,21 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-
-        int num1, num2;
-        int[] array = new int[100];
-        int count = 0;
-        int i = 0;
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        do{
-            num1 = input.nextInt();
-            num2 = input.nextInt();
-            array[i++] = (num1+ num2);
-            count++;
-        }while(input.hasNextInt());
-        input.close();
+        int A, B, V;
+        A = input.nextInt();
+        B = input.nextInt();
+        V = input.nextInt();
 
-        for(int j = 0; j < count; j++){
-            System.out.println(array[j]);
+        double day = (V - B)/(A - B);
+
+
+        if((V - B)%(A - B) != 0)
+            System.out.println((int)(++day));
+        else {
+            System.out.println((int)day);
         }
-
     }
 }
